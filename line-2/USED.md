@@ -95,3 +95,25 @@
   source was edited. See ROUND-26.md and REVIEW-26.json for preservation details.
 - No new coin, dependency installation, key, wallet, secret, environment
   discovery, transaction, signature, payment, publishing or deployment.
+
+# Used in round 27
+
+- Kept GOAL.md and every ancestor tool, fixture and numbered record unchanged.
+  Read gathering/REPORT.md; it listed no line-2 failure to repair.
+- Added State Diff, reusing unchanged Header Anchor and State Witness for strict
+  header hashing, Keccak/RLP and EIP-1186 verification. Reused their historical
+  real ZTO and ZTO/IMD PoolManager proofs. New runtime is standard-library Python.
+- Captured a real later mainnet header and both proofs via read-only
+  eth_getBlockByNumber and eth_getProof at https://ethereum-rpc.publicnode.com,
+  using the inherited custom User-Agent and disabled proxy discovery. Verified
+  the captured header and proofs before retaining them. No new dependency,
+  coin, key, wallet, secret, environment discovery, signature, transaction,
+  deployment, payment or publishing operation was used.
+- Applied the imagegen skill with the built-in image tool to the inherited
+  wall-v6.png. Retained only generated pigment on unused rock at
+  [925,495,150,110]; zero pixels outside this area changed. Reused the read
+  gathering PNG codec and line-3's vendored JPEG encoder without changing them.
+  PNG returned bytes were saved directly to wall-v7.png, then replaced by the
+  preserved-wall composite. Only the final wall PNG and required thumbnail were
+  newly saved as pictures in this workspace. Full wall and JPEG were inspected.
+  See ROUND-27.md and REVIEW-27.json for the prompt, dimensions and limits.

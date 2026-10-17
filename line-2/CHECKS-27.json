@@ -1,0 +1,349 @@
+{
+  "testSuites": [
+    {
+      "tool": "code-witness",
+      "returncode": 0,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.304s\n\nOK"
+    },
+    {
+      "tool": "header-anchor",
+      "returncode": 0,
+      "output": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.280s\n\nOK"
+    },
+    {
+      "tool": "header-chain",
+      "returncode": 0,
+      "output": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.637s\n\nOK"
+    },
+    {
+      "tool": "pool-state",
+      "returncode": 0,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.210s\n\nOK"
+    },
+    {
+      "tool": "proof-set",
+      "returncode": 0,
+      "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.171s\n\nOK"
+    },
+    {
+      "tool": "state-diff",
+      "returncode": 0,
+      "output": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.934s\n\nOK"
+    },
+    {
+      "tool": "state-witness",
+      "returncode": 0,
+      "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.277s\n\nOK"
+    }
+  ],
+  "allPassed": true,
+  "documentedCommands": [
+    {
+      "command": "python3 -B line-2/tools/state-diff/state_diff.py demo",
+      "returncode": 0,
+      "summary": {
+        "accountChanged": true,
+        "changedAccountFields": [
+          "nativeBalanceWei",
+          "storageRoot"
+        ],
+        "changedRequestedSlots": [
+          "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b"
+        ],
+        "requestedSlotsChanged": true,
+        "storageCommitmentChanged": true
+      }
+    },
+    {
+      "command": "python3 -B line-2/tools/state-diff/state_diff.py demo --zto",
+      "returncode": 0,
+      "summary": {
+        "accountChanged": true,
+        "changedAccountFields": [
+          "storageRoot"
+        ],
+        "changedRequestedSlots": [],
+        "requestedSlotsChanged": false,
+        "storageCommitmentChanged": true
+      }
+    },
+    {
+      "command": "python3 -B line-2/tools/state-diff/state_diff.py compare \\\n  line-2/tools/header-anchor/examples/zto-header-mainnet.json \\\n  line-2/tools/state-witness/examples/zto-pool-mainnet.json \\\n  line-2/tools/state-diff/examples/header-later.json \\\n  line-2/tools/state-diff/examples/pool-later.json \\\n  --before-hash 0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc \\\n  --after-hash 0x21c6077c84e1fb60cbff0737f8106b07e65bdc074b4a3ddea1c8368ca7b351d9 \\\n  --address 0x000000000004444c5dc75cB358380D2e3dE08A90 \\\n  --slot 0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+      "returncode": 0,
+      "summary": {
+        "accountChanged": true,
+        "changedAccountFields": [
+          "nativeBalanceWei",
+          "storageRoot"
+        ],
+        "changedRequestedSlots": [
+          "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b"
+        ],
+        "requestedSlotsChanged": true,
+        "storageCommitmentChanged": true
+      }
+    }
+  ],
+  "preservedInputs": [
+    {
+      "path": "line-2/GOAL.md",
+      "sha256": "906f47a8b7394fdf209a3f60ace04d0b472c97c80ecf3f24e1d991a30f1a8837"
+    },
+    {
+      "path": "dist/line-2/01.jpg",
+      "sha256": "89f331a4e6d6d20a1947d17f215cd6bba6a2fdcfeb466937bf6093d1e7ec989f"
+    },
+    {
+      "path": "dist/line-2/01.json",
+      "sha256": "d4f3206f29b48a5e75f812a33042ff069bf6056f6c6f382382c7780d33ce9495"
+    },
+    {
+      "path": "dist/line-2/02.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/03.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/04.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/05.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/06.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/07.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/08.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/09.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/10.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/11.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/12.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/13.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/14.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/15.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/16.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/17.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/18.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/19.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/20.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/21.json",
+      "sha256": "db0e739c4538bdacd1933ca08d18a7e1df3f686c37792fa62e6692757745de54"
+    },
+    {
+      "path": "dist/line-2/22.jpg",
+      "sha256": "53741363c2389c904d49b749e0d77a5bb9c4d8d2b70f8003dcd730689784d7da"
+    },
+    {
+      "path": "dist/line-2/22.json",
+      "sha256": "6a48aa03e398f76196877fe8a2d5f6e7d4d59ccc00808d717260a1f9311002ce"
+    },
+    {
+      "path": "dist/line-2/23.jpg",
+      "sha256": "6d8e2168be10f72c1382e3f61bf23c9532afb1a22f2389b579474fcaf8cf7571"
+    },
+    {
+      "path": "dist/line-2/23.json",
+      "sha256": "3ba7a479d7e7e90daf4b1b271dd056fcd3f26e9a293f783d0bfdd9bbf0d9f0f7"
+    },
+    {
+      "path": "dist/line-2/24.jpg",
+      "sha256": "250f3037666409ea49ca47427243537a83defa24316c28c9fdcf770071e02079"
+    },
+    {
+      "path": "dist/line-2/24.json",
+      "sha256": "401563cb6b63518e8488ee697172ef772c52499aaa059179206ea06aa05d5bf3"
+    },
+    {
+      "path": "dist/line-2/25.jpg",
+      "sha256": "e389630bb678f535e6c5458c05c6ce2d75bc5ce42562746392d61d5642a026a3"
+    },
+    {
+      "path": "dist/line-2/25.json",
+      "sha256": "7d5ccdc9e1a8dcc9a928d75e96c97d3c9dbac8e5e65d43b85cf5eacd80677f8b"
+    },
+    {
+      "path": "dist/line-2/26.jpg",
+      "sha256": "0060797d07b1eafe8000299fc71c7caa44447fc9ce70e502a6a0b38649be07ed"
+    },
+    {
+      "path": "dist/line-2/26.json",
+      "sha256": "0eb1520248e758720cdb873b000d99436b9c7f33f256c606d39b73fcf695aab8"
+    },
+    {
+      "path": "line-2/tools/code-witness/README.md",
+      "sha256": "d81a261e51c710a37cdfd6186378763ada40c3952d6cd3f07c9d72c3b9038823"
+    },
+    {
+      "path": "line-2/tools/code-witness/code_witness.py",
+      "sha256": "a3088e048af875cf8ececba54dd2dd0b850810880a3dde3dc6b0938304634cf7"
+    },
+    {
+      "path": "line-2/tools/code-witness/examples/zto-runtime.hex",
+      "sha256": "25e2869688124f2caccaa01e7a7f52bdf1423a8772b9be6da6cbe28aedffae8e"
+    },
+    {
+      "path": "line-2/tools/code-witness/test_code_witness.py",
+      "sha256": "d39a194c26c1557820f9849565f7d94384b1c980d75bae42282b0b4980a3ea61"
+    },
+    {
+      "path": "line-2/tools/header-anchor/README.md",
+      "sha256": "a3f091a2dbec59385ee6c9e2c8530feba16977c25acfc61f9bfdbef85652099f"
+    },
+    {
+      "path": "line-2/tools/header-anchor/anchor.py",
+      "sha256": "de9a6f7f92018574f97a8f7011b9d89f2e55ef79f201766cee1cd6d394186666"
+    },
+    {
+      "path": "line-2/tools/header-anchor/examples/header-cancun.json",
+      "sha256": "abd8f6fc2f6ccf90beffbb5a3a9d628063d03fa357c2bf5375c573e8c100edd6"
+    },
+    {
+      "path": "line-2/tools/header-anchor/examples/header-legacy.json",
+      "sha256": "88acf59de454685a21ee2ee21d45581ef414da37a589d19f272832f84404a898"
+    },
+    {
+      "path": "line-2/tools/header-anchor/examples/header-london.json",
+      "sha256": "7513e125502b4f3a2004d00caf1a30032dbcbf7f564839caa7099505b393521f"
+    },
+    {
+      "path": "line-2/tools/header-anchor/examples/header-shanghai.json",
+      "sha256": "461b02c5c7a9f9f54b92d4ac1e5b3768c57c98ef950de642759edb245457d87b"
+    },
+    {
+      "path": "line-2/tools/header-anchor/examples/zto-header-mainnet.json",
+      "sha256": "47c5ed5d06379dd937d391dc5814c30eb0877800a0dcf85bdcc6389a38aebd57"
+    },
+    {
+      "path": "line-2/tools/header-anchor/test_anchor.py",
+      "sha256": "06b0b526c7d5e0014e36a5b679209d5c76cc54420a719e3f1bb4c65535f43ef7"
+    },
+    {
+      "path": "line-2/tools/header-chain/README.md",
+      "sha256": "e16b5119d112e811b9ffe43ea77574661877595f8cb5cc4d728d104d700af8dc"
+    },
+    {
+      "path": "line-2/tools/header-chain/examples/zto-header-chain.json",
+      "sha256": "08c578c287e9e7db9000874981230345f98de4800cd24f05f2dc861e693d68ee"
+    },
+    {
+      "path": "line-2/tools/header-chain/header_chain.py",
+      "sha256": "af470fe3ca365d77b99217cfd503b834a05d0cb56cff433f75d31f12cdb8cd0a"
+    },
+    {
+      "path": "line-2/tools/header-chain/test_header_chain.py",
+      "sha256": "3a79c9238e93e1ec6cc7ec4de9cc6117aa9a5902fb623985ece00e1dcec76f7c"
+    },
+    {
+      "path": "line-2/tools/pool-state/README.md",
+      "sha256": "663c168759d7d1eff084a9faabda7f7751c1c7ae5b009e9daa80ffdc641cf64f"
+    },
+    {
+      "path": "line-2/tools/pool-state/pool_state.py",
+      "sha256": "7065ff8f75dcbd9a73e80735f0512824a50381f082f7d9cec45c7db53e0edabb"
+    },
+    {
+      "path": "line-2/tools/pool-state/test_pool_state.py",
+      "sha256": "c80631441d3051cee89f86a59bea083a25fd48c053d3f35a140979710cdadbb4"
+    },
+    {
+      "path": "line-2/tools/proof-set/README.md",
+      "sha256": "15cfda413edc1ee90557af7d9116930e4970cdfa69691036c4e98b17ea686ac7"
+    },
+    {
+      "path": "line-2/tools/proof-set/examples/zto-and-pool.json",
+      "sha256": "a4e9d3fb56c90bf1202ac3d53b8ce7c557febe06d88581a9430a2f6a59f14e8f"
+    },
+    {
+      "path": "line-2/tools/proof-set/proof_set.py",
+      "sha256": "8b43116d17a4d389e2542d8d7aa7d798cfd7b5c0e85084d871968c9958cb3c28"
+    },
+    {
+      "path": "line-2/tools/proof-set/test_proof_set.py",
+      "sha256": "077334783b4edd7c74bd6d04625e5c0b47f817138d2e8066914885983095f586"
+    },
+    {
+      "path": "line-2/tools/state-witness/README.md",
+      "sha256": "74a851cd83945efb81a267d840156aa3df80ab109f833e4a3fac5a93b878f103"
+    },
+    {
+      "path": "line-2/tools/state-witness/examples/zto-mainnet.json",
+      "sha256": "2266d59a8eecca1aa2424c82ae31c5b02fa3814b0bc77d348d8a9361347fb92d"
+    },
+    {
+      "path": "line-2/tools/state-witness/examples/zto-pool-mainnet.json",
+      "sha256": "a0a503c8a62949af7adf0347d3af013ca5d6fc37f20d6e7fbf00b72092d1938f"
+    },
+    {
+      "path": "line-2/tools/state-witness/test_witness.py",
+      "sha256": "fa27f01a222f2f7f8fdf0c129ec0c3f065c10ea5a64e433303d31bbb01d70fb7"
+    },
+    {
+      "path": "line-2/tools/state-witness/witness.py",
+      "sha256": "88b7927c2bd4daaea1805b7fb996d5fb1980634be7da96ae59c2726afa6f2eb1"
+    }
+  ],
+  "deliverable": {
+    "pngDimensions": [
+      1254,
+      1254
+    ],
+    "jpegDimensions": [
+      512,
+      512
+    ],
+    "jpegBytes": 77378,
+    "changedPixels": 6880,
+    "changedPixelsOutsideRectangle": 0,
+    "recordNumber": 27,
+    "recordHashMatches": true,
+    "goalUnchanged": true
+  }
+}

@@ -102,3 +102,19 @@ the later checkpoint; consensus, checkpoint authentication and current-state
 claims remain outside this check. [Round 26](ROUND-26.md) and
 [review measurements](REVIEW-26.json) record the ochre stones joined by a cord,
 exact preservation of ancestor pixels, square PNG and 512-pixel JPEG.
+
+## Round 27 addition
+
+[State Diff](tools/state-diff/README.md) verifies two real account/storage
+snapshots against separately supplied block hashes and reports exact endpoint
+changes. The default offline trial compares the real ZTO/IMD pool:
+
+```sh
+python3 -B line-2/tools/state-diff/state_diff.py demo
+```
+
+All 15 new tests and 84 ancestor tests passed. The ZTO trial also shows a changed
+storage root with unchanged sampled slots. Both checkpoints require external
+authentication; ordered headers alone do not establish ancestry, events or
+current state. [Round 27](ROUND-27.md) and [review](REVIEW-27.json) describe the
+two-leaf mark, preserved ancestor pixels, PNG and JPEG outputs.

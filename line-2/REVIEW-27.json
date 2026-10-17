@@ -1,0 +1,59 @@
+{
+  "round": 27,
+  "ancestorSha256": "0988fca17fed92b5ee05af3a667a71f8f1d0aee744587bbaad97a8f61c8a0a28",
+  "generatedDraftSha256": "f1829d04f037b45545fd7694ece2a6c8ff128a81ea30795b7a17abff0176c20a",
+  "wallSha256": "2f340b47655c9dbd3a591132f3ede4c2b9a8948f0c45714093b302dd944aa947",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    925,
+    495,
+    150,
+    110
+  ],
+  "changedPixels": 6880,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Built-in imagegen; retained only generated pigment on bare rock, preserving the inherited pixels elsewhere.",
+  "visualReview": "Inspected full PNG and decoded 512px JPEG. Pepe remains recognizable with wide mouth, heavy-lidded eyes and five digits counted on each of two inherited hands. No hands or handprints added. All ancestor marks retained. No text, numbers, signatures, logos, watermark, border, frame, real people or prohibited symbols observed. Earth pigments and rock remain visible.",
+  "unmetVisualRequirements": [],
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v7.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3938054,
+      "sha256": "2f340b47655c9dbd3a591132f3ede4c2b9a8948f0c45714093b302dd944aa947"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3938054,
+      "sha256": "2f340b47655c9dbd3a591132f3ede4c2b9a8948f0c45714093b302dd944aa947"
+    },
+    {
+      "path": "dist/line-2/27.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 77378,
+      "sha256": "49e3025817697bf1f01e333368fe4387d710123682593ce92783bf3e67776771"
+    }
+  ],
+  "limitations": [
+    "New dots are small in the 512px preview. Visual review is local, not independent approval.",
+    "Required beside-record JPEG follows the explicit dist/line-2/27.jpg location despite the conflicting blanket instruction forbidding pictures outside artifacts."
+  ]
+}
