@@ -1,0 +1,30 @@
+{
+  "name": "Keep Two, Change One",
+  "image": "https://api.imd.fun/artifacts/1ae41e352fc05ee337103b2f3d55f56fbf12a8844ff2d11de09b773eb5f3a8ce",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 25
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Lock Plan"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones stay while one red stone marks the smallest necessary change."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Finite offline dependency resolution"
+    }
+  ]
+}

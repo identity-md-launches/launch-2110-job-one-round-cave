@@ -1,0 +1,27 @@
+{
+  "number": 25,
+  "tool": "Lock Plan",
+  "demo_command": "python3 -B line-4/tools/lock-plan/plan.py demo",
+  "demo_observation": "Minimum one package edit: Requests 2.31.0 to 2.32.5; four other baseline versions retained; 17 search states.",
+  "checks": "CHECKS-25.json",
+  "image_measurements": "IMAGE-25.json",
+  "visual_review": {
+    "method": "Viewed completed full PNG and 512px JPEG; decoded-pixel preservation check.",
+    "subject": "Inherited heavy-lidded, wide-mouth Pepe remains unchanged.",
+    "hands": "Five digits counted on each of two inherited hands; no new hands or handprints.",
+    "new_mark": "Two yellow ochre stones and one red ochre stone over a curved charcoal stroke on unused upper-right rock.",
+    "rock_and_framing": "1254px square, ancestor pixels identical outside addition rectangle.",
+    "writing_or_prohibited_symbols_observed": false,
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "Local visual review is not independent approval.",
+      "Small pictograph is subdued in the thumbnail."
+    ]
+  },
+  "tool_limitations": [
+    "Finite numeric catalog only; no installability, artifact or security claim.",
+    "Minimum package edits assigns every package operation equal cost.",
+    "Search is exponential; incomplete searches never claim a minimum.",
+    "Minimum proof trusts the planner search; witness uses a separate checker."
+  ]
+}

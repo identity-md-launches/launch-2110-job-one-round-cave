@@ -1,0 +1,39 @@
+{
+  "ancestor_sha256": "a1743f337cb5aa4ffd350818fc8c165a233147726d90bf77fb2c9b24be4c410f",
+  "wall_sha256": "1ae41e352fc05ee337103b2f3d55f56fbf12a8844ff2d11de09b773eb5f3a8ce",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "outputs": [
+    "artifacts/line-4/wall-v7.png",
+    "artifacts/line-4/wall.png"
+  ],
+  "new_mark_rectangle_xyxy": [
+    750,
+    250,
+    1005,
+    369
+  ],
+  "changed_bounds_xyxy": [
+    756,
+    250,
+    1003,
+    368
+  ],
+  "changed_pixels": 17451,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Installed image tool generated pigment; masked area samples composite only the new pictograph over inherited rock.",
+  "preview": {
+    "path": "dist/line-4/25.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 70813
+  },
+  "unmet_visual_requirements": []
+}

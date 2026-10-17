@@ -1,0 +1,104 @@
+{
+  "new_tests": {
+    "command": "python3 -B -m unittest discover -s line-4/tools/lock-plan -p 'test_*.py' -v",
+    "exit_code": 0,
+    "tests_passed": 15,
+    "seeded_catalogs": 500
+  },
+  "reused_dependency_tests": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "test/scratch/line4-25-original-resolver",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_passed": 17
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/exhaustive-audit",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_passed": 14
+    }
+  ],
+  "demo_command": "python3 -B line-4/tools/lock-plan/plan.py demo",
+  "demo_result": {
+    "method": "minimum-package-edits-v1",
+    "input_sha256": "ea06c6ca584a5a35d550b3840a68e7c901f9d61138b897e08e894352e3bd7be9",
+    "baseline": {
+      "certifi": "2025.8.3",
+      "charset-normalizer": "3.4.3",
+      "idna": "3.10",
+      "requests": "2.31.0",
+      "urllib3": "1.26.20"
+    },
+    "max_steps": 10000,
+    "status": "optimal",
+    "steps": 17,
+    "optimality": "all reachable branches exhausted",
+    "minimum_change_count": 1,
+    "selected": {
+      "certifi": "2025.8.3",
+      "charset-normalizer": "3.4.3",
+      "idna": "3.10",
+      "requests": "2.32.5",
+      "urllib3": "1.26.20"
+    },
+    "changes": [
+      {
+        "package": "requests",
+        "before": "2.31.0",
+        "after": "2.32.5",
+        "operation": "change"
+      }
+    ],
+    "change_count": 1
+  },
+  "baseline_check": "All selected versions satisfy the saved catalog under requests ==2.31.0 and urllib3 <2.",
+  "source_sha256": {
+    "line-4/GOAL.md": "06d3d4ef63f0e7bd23ae5344c2b096fdd6f2c36be880b75be38e4516c57b99bf",
+    "line-4/tools/lock-plan/plan.py": "709eb15a00de77f5debf8359b90e8ca415e8f83c300e54b7a3704b1c13eb53c3",
+    "line-4/tools/lock-plan/test_plan.py": "dbd4f10f14b1a087ddd4b1d50ac45016618ca48f62a000a13c06cffe833ac3e9",
+    "line-4/tools/lock-plan/examples/baseline.json": "f54873e3482742d638196ea0b398cede26ea031b308c5086daeb48d7addbdded",
+    "line-4/tools/offline-resolver/resolve.py": "204176243974c16f7ba81350d2eefc782ba5a8e2537b8aeee64066af7b11796f",
+    "line-4/tools/exhaustive-audit/audit.py": "315d4bd407d6247e56ab707db390578772acc1ce7d50940ccb92915c57a2b624",
+    "line-4/tools/offline-resolver/examples/requests.json": "bf8ab6d924509a7ad0aeb45bf934bb6fb30eea159f895a6fa7b3d4dd3834a274"
+  },
+  "deliverable_contract": {
+    "status": "passed",
+    "goal_byte_identical": true,
+    "older_records_byte_identical": 24,
+    "record_count": 25,
+    "new_record": "dist/line-4/25.json",
+    "png_dimensions": [
+      1254,
+      1254
+    ],
+    "jpeg_dimensions": [
+      512,
+      512
+    ],
+    "jpeg_bytes": 70813,
+    "outside_scope_changes": [],
+    "new_nonartifact_files_under_100kb": true,
+    "required_wall_output_untracked": true
+  }
+}

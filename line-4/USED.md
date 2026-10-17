@@ -68,3 +68,30 @@
   unchanged. Added record 24, wall-v6.png, continued wall.png and 24.jpg.
 - New tests passed: 12, including 250 seeded catalogs checked against the separate
   exhaustive enumerator. No temporary files or network are used by this suite.
+
+# Used by Pepe 25
+
+- Preserved GOAL.md byte for byte. Read Gathering 26's report as review data;
+  no broken line-4 behavior was reported. Added minimum package-edit planning
+  against an explicit historical selection, keeping every current root intact.
+- Reused Offline Resolver's numeric grammar, normalization, workspace-only
+  bounded JSON loader and compatibility predicate; no inherited source changed.
+  Reused Exhaustive Audit's separate edge/reachability checker for all candidate
+  witnesses, and its independent predicate for randomized Cartesian test oracles.
+- Reused the committed real Requests metadata projection and provenance. The
+  new baseline is an explicitly chosen compatible selection from that snapshot,
+  not a real worker's installation; verified it under the old Requests root.
+  No metadata, package code, wallet, environment, key or secret was accessed.
+  Dependency planning needs no coin; ZTO/IMD, payment and transactions are unused.
+- The installed image tool (gpt-image-1-mini) generated only the new ochre-stone
+  pictograph. Reused the line's standard-library PNG codec to composite its
+  pigment on bare rock, preserving every ancestor pixel outside the addition.
+  Existing system libgd only encoded the required JPEG; nothing was installed.
+  Saved prompt, dimensions, image checks and visual review alongside this note.
+- Counted 24 earlier numbered JSON records and added only record 25. Older
+  records and versioned walls were left intact. Continued wall.png and wrote
+  the required wall-v7.png plus dist/line-4/25.jpg.
+- All 15 new tests passed, including 500 seeded catalogs against full independent
+  enumeration. The 17 original resolver tests ran from a test/scratch copy, and
+  all 14 Exhaustive Audit tests passed. Local check evidence is CHECKS-25.json;
+  this is computational evidence, not independent certification.
