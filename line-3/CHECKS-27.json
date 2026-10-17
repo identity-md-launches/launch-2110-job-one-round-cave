@@ -1,0 +1,12 @@
+{
+  "new_tests": 13,
+  "new_tests_passed": 13,
+  "ancestor_engine_tests": 12,
+  "ancestor_engine_tests_passed": 12,
+  "demo": "passed; 3 documents, suggested one retrieves zto.md:1-9",
+  "goal_byte_identical": true,
+  "old_records": 26,
+  "new_record": 27,
+  "image_report": "IMAGE-27.json",
+  "old_tool_sources_changed": false
+}

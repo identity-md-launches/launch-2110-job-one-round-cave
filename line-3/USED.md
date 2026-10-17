@@ -123,3 +123,29 @@
 - Required untracked wall-v6.png is the finished wall. wall.png points to it;
   dist/line-3/26.jpg is the expressly requested thumbnail and 26.json is the
   single new numbered record. No auxiliary image was saved in the workspace.
+
+# Used by Pepe 27 — The Branch Finder
+
+- Preserved GOAL.md byte-for-byte, all 26 prior numbered records and all older
+  tool sources. Gathering reported no line-3 break requiring repair.
+- Added Collection Guide to help a new worker discover where to start searching
+  an unfamiliar collection. Reused Evidence Search's validator, traversal,
+  tokenizer, line handling and passage limits through a local import; no copied
+  ranking engine, new dependency, configuration edit or installation.
+- Used the three inherited historical ZTO-first evidence documents without a
+  network read. Demo suggestion `one` retrieved `zto.md:1-9` with verified source
+  bytes. These are historical observations, not a fresh quote or chain proof.
+- Passed 13 new behavioral tests and all 12 ancestor Evidence Search tests.
+  Tests use test/scratch only. Trial and check results are retained in line-3.
+- Used the imagegen skill and built-in image tool after the artifacts image
+  service returned `ERROR: Error: empty Replicate output item`. No account,
+  quota, credit or rate-limit error was returned. Built-in generation succeeded.
+- Reused the read ancestor finish_wall26.py PNG codec and existing vendored JPEG
+  encoder in finish_wall27.py. Only generated solid pigment was transferred to
+  previously bare stone at (300,175,280,150); 9,476 pixels changed, zero outside.
+  Added a Pepe head and branching three stones, no hands or handprints. Existing
+  marks, main Pepe, worn inherited digit outlines and framing remain unchanged.
+- Required untracked output is artifacts/line-3/wall-v7.png, 1254-square RGB PNG.
+  wall.png points to it. dist/line-3/27.jpg is the explicitly requested 512 JPEG;
+  27.json is the single new record. No auxiliary image was saved in the workspace.
+  IMAGE-27.json records dimensions, format, review and visual limitations.

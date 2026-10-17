@@ -1,0 +1,343 @@
+{
+  "guide": {
+    "format": "evidence-collection-guide/v1",
+    "snapshot_sha256": "a164a8d903f8e8ce731056e26e4ffc1d0818d13c69a845a366928d070e979e63",
+    "verification_scope": "embedded source bytes only; no live freshness, authority or truth check",
+    "selection": {
+      "terms_per_document": 5,
+      "headings_per_document": 5,
+      "term_order": "document frequency ascending, occurrence count descending, token ascending"
+    },
+    "documents": 3,
+    "total_bytes": 2126,
+    "total_lines": 46,
+    "sources": [
+      {
+        "path": "imd.md",
+        "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+        "bytes": 669,
+        "lines": 15,
+        "heading_count": 2,
+        "headings": [
+          {
+            "path": "imd.md",
+            "line_start": 1,
+            "line_end": 1,
+            "citation": "imd.md:1-1",
+            "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+            "text": "# IMD on Ethereum",
+            "level": 1
+          },
+          {
+            "path": "imd.md",
+            "line_start": 9,
+            "line_end": 9,
+            "citation": "imd.md:9-9",
+            "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+            "text": "## Observation and trust",
+            "level": 2
+          }
+        ],
+        "headings_omitted": 0,
+        "search_starters": [
+          {
+            "term": "identity",
+            "occurrences": 1,
+            "document_frequency": 1,
+            "query": "identity",
+            "source": {
+              "path": "imd.md",
+              "line_start": 3,
+              "line_end": 3,
+              "citation": "imd.md:3-3",
+              "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+              "text": "IMD token name: Identity.md."
+            }
+          },
+          {
+            "term": "imd",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "imd",
+            "source": {
+              "path": "imd.md",
+              "line_start": 1,
+              "line_end": 1,
+              "citation": "imd.md:1-1",
+              "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+              "text": "# IMD on Ethereum"
+            }
+          },
+          {
+            "term": "observation",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "observation",
+            "source": {
+              "path": "imd.md",
+              "line_start": 9,
+              "line_end": 9,
+              "citation": "imd.md:9-9",
+              "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+              "text": "## Observation and trust"
+            }
+          },
+          {
+            "term": "results",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "results",
+            "source": {
+              "path": "imd.md",
+              "line_start": 13,
+              "line_end": 13,
+              "citation": "imd.md:13-13",
+              "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+              "text": "The companion zto-mainnet.json contains the raw eth_call results and retrieval time."
+            }
+          },
+          {
+            "term": "units",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "units",
+            "source": {
+              "path": "imd.md",
+              "line_start": 7,
+              "line_end": 7,
+              "citation": "imd.md:7-7",
+              "sha256": "a14adad1d92e8b0dd5a819ff569978278223947382df8e5d4b15e66d897eba40",
+              "text": "Total supply in smallest token units: 4166876402822000000000000."
+            }
+          }
+        ]
+      },
+      {
+        "path": "pool.md",
+        "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+        "bytes": 785,
+        "lines": 16,
+        "heading_count": 2,
+        "headings": [
+          {
+            "path": "pool.md",
+            "line_start": 1,
+            "line_end": 1,
+            "citation": "pool.md:1-1",
+            "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+            "text": "# ZTO and IMD pool reference",
+            "level": 1
+          },
+          {
+            "path": "pool.md",
+            "line_start": 10,
+            "line_end": 10,
+            "citation": "pool.md:10-10",
+            "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+            "text": "## Source boundary",
+            "level": 2
+          }
+        ],
+        "headings_omitted": 0,
+        "search_starters": [
+          {
+            "term": "pool",
+            "occurrences": 5,
+            "document_frequency": 1,
+            "query": "pool",
+            "source": {
+              "path": "pool.md",
+              "line_start": 1,
+              "line_end": 1,
+              "citation": "pool.md:1-1",
+              "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+              "text": "# ZTO and IMD pool reference"
+            }
+          },
+          {
+            "term": "reference",
+            "occurrences": 2,
+            "document_frequency": 1,
+            "query": "reference",
+            "source": {
+              "path": "pool.md",
+              "line_start": 1,
+              "line_end": 1,
+              "citation": "pool.md:1-1",
+              "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+              "text": "# ZTO and IMD pool reference"
+            }
+          },
+          {
+            "term": "0x000000000004444c5dc75cb358380d2e3de08a90",
+            "occurrences": 1,
+            "document_frequency": 1,
+            "query": "0x000000000004444c5dc75cb358380d2e3de08a90",
+            "source": {
+              "path": "pool.md",
+              "line_start": 4,
+              "line_end": 4,
+              "citation": "pool.md:4-4",
+              "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+              "text": "PoolManager: 0x000000000004444c5dc75cB358380D2e3dE08A90."
+            }
+          },
+          {
+            "term": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+            "occurrences": 1,
+            "document_frequency": 1,
+            "query": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+            "source": {
+              "path": "pool.md",
+              "line_start": 5,
+              "line_end": 5,
+              "citation": "pool.md:5-5",
+              "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+              "text": "Pool ID: 0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592."
+            }
+          },
+          {
+            "term": "above",
+            "occurrences": 1,
+            "document_frequency": 1,
+            "query": "above",
+            "source": {
+              "path": "pool.md",
+              "line_start": 12,
+              "line_end": 12,
+              "citation": "pool.md:12-12",
+              "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+              "text": "The pool identifiers and parameters above come from the assignment's public"
+            }
+          }
+        ]
+      },
+      {
+        "path": "zto.md",
+        "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+        "bytes": 672,
+        "lines": 15,
+        "heading_count": 2,
+        "headings": [
+          {
+            "path": "zto.md",
+            "line_start": 1,
+            "line_end": 1,
+            "citation": "zto.md:1-1",
+            "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+            "text": "# ZTO on Ethereum",
+            "level": 1
+          },
+          {
+            "path": "zto.md",
+            "line_start": 9,
+            "line_end": 9,
+            "citation": "zto.md:9-9",
+            "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+            "text": "## Observation and trust",
+            "level": 2
+          }
+        ],
+        "headings_omitted": 0,
+        "search_starters": [
+          {
+            "term": "one",
+            "occurrences": 1,
+            "document_frequency": 1,
+            "query": "one",
+            "source": {
+              "path": "zto.md",
+              "line_start": 3,
+              "line_end": 3,
+              "citation": "zto.md:3-3",
+              "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+              "text": "ZTO token name: Zero To One."
+            }
+          },
+          {
+            "term": "zero",
+            "occurrences": 1,
+            "document_frequency": 1,
+            "query": "zero",
+            "source": {
+              "path": "zto.md",
+              "line_start": 3,
+              "line_end": 3,
+              "citation": "zto.md:3-3",
+              "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+              "text": "ZTO token name: Zero To One."
+            }
+          },
+          {
+            "term": "observation",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "observation",
+            "source": {
+              "path": "zto.md",
+              "line_start": 9,
+              "line_end": 9,
+              "citation": "zto.md:9-9",
+              "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+              "text": "## Observation and trust"
+            }
+          },
+          {
+            "term": "results",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "results",
+            "source": {
+              "path": "zto.md",
+              "line_start": 13,
+              "line_end": 13,
+              "citation": "zto.md:13-13",
+              "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+              "text": "The companion zto-mainnet.json contains the raw eth_call results and retrieval time."
+            }
+          },
+          {
+            "term": "units",
+            "occurrences": 2,
+            "document_frequency": 2,
+            "query": "units",
+            "source": {
+              "path": "zto.md",
+              "line_start": 7,
+              "line_end": 7,
+              "citation": "zto.md:7-7",
+              "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+              "text": "Total supply in smallest token units: 1000000000000000000000000000."
+            }
+          }
+        ]
+      }
+    ],
+    "guide_sha256": "918a973470daf7d2864fd38f10a30e43cb05e21b601851e1f4250e4c06907c6e"
+  },
+  "suggested_query_trial": {
+    "format": "evidence-search-results/v1",
+    "query": "one",
+    "terms": [
+      "one"
+    ],
+    "require_all": false,
+    "indexed_documents": 3,
+    "indexed_passages": 6,
+    "hits": [
+      {
+        "path": "zto.md",
+        "line_start": 1,
+        "line_end": 9,
+        "citation": "zto.md:1-9",
+        "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+        "source_verified": true,
+        "score": 1.80401929,
+        "matched_terms": [
+          "one"
+        ],
+        "text": "# ZTO on Ethereum\n\nZTO token name: Zero To One.\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\nChain ID: 1 (Ethereum mainnet).\nToken decimals: 18.\nTotal supply in smallest token units: 1000000000000000000000000000.\n\n## Observation and trust"
+      }
+    ]
+  }
+}

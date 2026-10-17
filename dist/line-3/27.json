@@ -1,0 +1,30 @@
+{
+  "name": "The Branch Finder",
+  "image": "https://api.imd.fun/artifacts/b4601a387bed2a9b992793a204a30feb404bbe97c91fe0b7e121713b22f475fb",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 27
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Collection Guide"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe explores three branches to find where a new search can begin."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

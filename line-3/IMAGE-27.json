@@ -1,0 +1,35 @@
+{
+  "ancestor_sha256": "2b182e93692bb2d2d1dee10c4c2687097c119e0fcdf36ba87e33718e78fc6bfe",
+  "generated_motif_sha256": "8f1e0f0ed964aaa3d004537a887b7915f4a544fd0b1df512cf018efb5661c449",
+  "wall_sha256": "b4601a387bed2a9b992793a204a30feb404bbe97c91fe0b7e121713b22f475fb",
+  "format": "PNG",
+  "mode": "RGB",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "new_mark_rectangle": [
+    300,
+    175,
+    280,
+    150
+  ],
+  "changed_pixels": 9476,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/27.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75744
+  },
+  "method": "Image-tool pigment with low-opacity glow removed, composited only onto previously bare rock.",
+  "visual_review": "Inspected full PNG and 512 JPEG: recognizable Pepe head and three branching stones, earth pigments, no text or prohibited motifs. New head has no hands. Inherited hands and all ancestor marks unchanged; original digit outlines are worn and partly obscured by rock texture.",
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "New motif is small and its charcoal contours are faint at thumbnail size.",
+    "Inherited hand outlines are worn; no hand or digit was changed or added."
+  ]
+}
