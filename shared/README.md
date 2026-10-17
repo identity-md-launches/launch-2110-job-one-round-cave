@@ -34,3 +34,9 @@ merge rejected by two different searches over the same real release catalog.
 Gathering 26 adds [minimum root repair](merge-dependencies/README.md) after a
 fully checked merge. Run `python3 -B shared/merge-dependencies/repair_merge.py demo`
 to see a reviewable one-root proposal for the incompatible Requests catalog.
+
+## Gathering 27
+
+`merge-dependencies/plan_merge.py` now combines a reviewed compatible text
+merge with a minimum-change plan against a supplied baseline. Its demo and
+documentation are in [merge-dependencies/README.md](merge-dependencies/README.md).

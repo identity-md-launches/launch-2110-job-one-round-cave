@@ -1,7 +1,8 @@
 none
 
-All four worker capabilities already work without a new coin. The gathering's
-new merged-catalog repair is read-only standard-library Python; no token or hook
-would enable a missing step. ZTO first and IMD second already provide the real
-Ethereum token and pool context. No launch or deployment order is justified.
-Nothing was signed, sent, paid, posted or deployed.
+All four worker capabilities and the new merged-catalog planning handoff work
+without a new coin. They are offline or read-only; no Uniswap v4 hook would do a
+missing part of their work. ZTO first and IMD second already provide the real
+token and pool context used by the Ethereum and document examples. No launch
+request, coin order or deployment order is justified. Nothing was signed, sent,
+paid, posted or deployed.

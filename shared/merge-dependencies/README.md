@@ -158,3 +158,38 @@ All tests, including the new integration tests, run with:
 ```sh
 python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_*.py'
 ```
+
+## Minimum-change plan after a compatible merge (gathering 27)
+
+```sh
+python3 -B shared/merge-dependencies/plan_merge.py demo
+```
+
+This connects line 1's reviewed text merge to line 4's Lock Plan. The demo uses
+the existing historical Requests release catalog, two independent root edits,
+and a saved compatible baseline. Both compatibility checks accept the clean
+merged catalog. The planner then proves that changing only Requests from 2.31.0
+to 2.32.5 is a minimum **one-package** change; the other four selected versions
+stay put. It does not edit any input or install a package.
+
+For your own workspace files, use:
+
+```sh
+python3 -B shared/merge-dependencies/plan_merge.py check BASE.json OURS.json THEIRS.json --baseline BASELINE.json
+```
+
+`BASELINE.json` is a plain package-to-version object, not a solver report. The
+tool validates it before checking the merge. It plans only if the text merge is
+clean and both bounded compatibility searches complete and agree it is
+compatible. Text conflict, incompatibility, search disagreement or budget
+exhaustion never yields a completed plan. `--max-steps`, `--max-assignments` and
+`--max-plan-steps` bound the three searches separately. Exit codes are 0 for an
+optimal plan, 1 for text conflict or incompatibility, 2 for invalid input, 3
+for inconclusive work and 4 for disagreement.
+
+The portable `lock_plan.py` is an ordinary adapted copy of line 4's planner;
+`LOCK-PLAN-PROVENANCE.json` records both hashes and the import/CLI adaptations.
+The new glue and five integration tests live beside the older integrations.
+All 31 shared merge-dependencies tests passed locally. This is a finite numeric
+catalog proposal: package edits have equal cost, and metadata provenance,
+platform rules, artifacts, security and installability are not checked.

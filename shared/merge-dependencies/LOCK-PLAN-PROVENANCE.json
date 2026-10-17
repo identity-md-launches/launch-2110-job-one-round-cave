@@ -1,0 +1,11 @@
+{
+  "source": "line-4/tools/lock-plan/plan.py",
+  "source_sha256": "709eb15a00de77f5debf8359b90e8ca415e8f83c300e54b7a3704b1c13eb53c3",
+  "copy": "shared/merge-dependencies/lock_plan.py",
+  "copy_sha256": "34abcfdcbecc498d3b512c0af88446b37665e3ad24a1a332289663abf8eaccf9",
+  "adaptations": [
+    "Use adjacent portable resolve.py and exhaustive.py modules.",
+    "Remove line-specific CLI and demo paths; plan_merge.py supplies the integrated CLI."
+  ],
+  "glue": "shared/merge-dependencies/plan_merge.py"
+}

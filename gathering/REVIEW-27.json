@@ -1,0 +1,39 @@
+{
+  "number": 27,
+  "line_files_and_records_unchanged": true,
+  "line_tests_passed": 352,
+  "line_demos_passed": 26,
+  "shared_tests_passed": 56,
+  "gallery_records": 132,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v7.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "0de86bcb15e32606fb1710fbfba6f379c3b3922946e77901150bc70f055f2a9d"
+  },
+  "preview": {
+    "path": "dist/gathering/27.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 83766
+  },
+  "changed_pixels": 34721,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Local inspection of finished wall and JPEG preview.",
+    "pepe": "Wide mouth and heavy-lidded eyes preserved.",
+    "hands": "No new hands or handprints; no new digits.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "New paths are modest in the thumbnail."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none"
+}
